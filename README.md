@@ -1,6 +1,6 @@
 # Cloud Vision Image Analysis Pipeline
 
-A hands-on project that stores images in **Google Cloud Storage** and sends them to the **Google Cloud Vision API** over REST (JSON via `cURL`) to detect labels, web entities, faces, landmarks, and objects.
+A hands-on project that stores images in **Google Cloud Storage** and sends them to the **Google Cloud Vision API** over REST (JSON via `CURL`) to detect labels, web entities, faces, landmarks, and objects.
 
 Image for face detection 
 <img width="960" height="960" alt="selfie1" src="https://github.com/user-attachments/assets/bf61537d-19ef-4b70-8b3e-b19224d8237c" />
