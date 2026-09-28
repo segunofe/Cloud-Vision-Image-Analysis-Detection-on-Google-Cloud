@@ -8,6 +8,9 @@ Image for face detection
 Image for landmark detection 
 <img width="2877" height="3596" alt="city" src="https://github.com/user-attachments/assets/17d7295f-6e48-49c1-9d78-e45e3082ecd3" />
 
+Image for label detection
+<img width="1600" height="1200" alt="donuts" src="https://github.com/user-attachments/assets/68eb4a4f-1c8b-4f1d-b112-563a695d40d5" />
+
 
 > **Note:** This project uses Google's pre-trained Vision API. It demonstrates working with cloud vision services and interpreting model outputs, not training a custom model. It follows the Google Cloud Skills Boost lab *Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API*.
 
@@ -52,7 +55,7 @@ export API_KEY=<YOUR_API_KEY>
 
 <img width="1227" height="572" alt="Screenshot 2026-09-28 103025" src="https://github.com/user-attachments/assets/72a4af56-8047-433a-9e70-d043b6710dc4" />
 
-<img width="1600" height="1200" alt="donuts" src="https://github.com/user-attachments/assets/68eb4a4f-1c8b-4f1d-b112-563a695d40d5" />
+
 <img width="1720" height="748" alt="Screenshot 2026-09-28 140747" src="https://github.com/user-attachments/assets/df327592-bf19-47f1-800e-f6f4739d38bd" />
 
 
