@@ -2,6 +2,13 @@
 
 A hands-on project that stores images in **Google Cloud Storage** and sends them to the **Google Cloud Vision API** over REST (JSON via `cURL`) to detect labels, web entities, faces, landmarks, and objects.
 
+Image for face detection 
+<img width="960" height="960" alt="selfie1" src="https://github.com/user-attachments/assets/bf61537d-19ef-4b70-8b3e-b19224d8237c" />
+
+Image for landmark detection 
+<img width="2877" height="3596" alt="city" src="https://github.com/user-attachments/assets/17d7295f-6e48-49c1-9d78-e45e3082ecd3" />
+
+
 > **Note:** This project uses Google's pre-trained Vision API. It demonstrates working with cloud vision services and interpreting model outputs, not training a custom model. It follows the Google Cloud Skills Boost lab *Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API*.
 
 ## What it does
