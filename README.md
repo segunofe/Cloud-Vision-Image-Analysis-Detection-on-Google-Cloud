@@ -184,6 +184,8 @@ export API_KEY=<YOUR_API_KEY>
 
 Based on the Google Cloud Skills Boost lab *Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API*. Sample images are provided by the lab and are not included in this repository.
 
+Google Skill on Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API: https://www.skills.google/focuses/1841?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=101434421
+
 ## Technologies
 
 Google Cloud Platform, Cloud Storage, Cloud Vision API, REST, JSON, cURL, Cloud Shell
