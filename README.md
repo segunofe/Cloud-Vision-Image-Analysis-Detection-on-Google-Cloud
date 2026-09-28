@@ -116,13 +116,8 @@ Shape of the output (values vary by image):
 - **`boundingPoly`:** the region of the image containing a face, landmark, or object. For object localization the coordinates are *normalized* (0 to 1) relative to image size.
 - **Emotion likelihoods (faces):** ratings such as `joyLikelihood: LIKELY` or `angerLikelihood: VERY_UNLIKELY`. These are categories, not exact probabilities.
 
-## Screenshots
 
-_Add your own screenshots here, for example your bucket, `request.json`, and the JSON output for each feature._
 
-```
-docs/
-  bucket.png
 
 <img width="1842" height="741" alt="Screenshot 2026-09-28 100335" src="https://github.com/user-attachments/assets/7eef5a13-90d2-4605-b3e6-29629d5a8d26" />
 
@@ -134,12 +129,8 @@ docs/
 <img width="828" height="542" alt="Screenshot 2026-09-28 104020" src="https://github.com/user-attachments/assets/1ca44777-ba57-4b90-b671-41a4108cebaa" />
 <img width="776" height="528" alt="Screenshot 2026-09-28 104048" src="https://github.com/user-attachments/assets/a2c885a2-5f4b-4e55-be29-1a93501ee684" />
 <img width="906" height="573" alt="Screenshot 2026-09-28 104109" src="https://github.com/user-attachments/assets/08eacde9-c028-41d1-9029-fe4d279e1470" />
-
-
-
-
 face-detection-output.png
-```
+
 
 ## ERROR Encountered 
 My Curl command threw a 403 error. The request couldn't reach the Cloud Vision API
