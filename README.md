@@ -42,6 +42,7 @@ export API_KEY=<YOUR_API_KEY>
 
 
 **2. Create a bucket and upload an image.** Use fine-grained access control, then upload your image (for example `donuts.png`).
+
 <img width="1227" height="572" alt="Screenshot 2026-09-28 103025" src="https://github.com/user-attachments/assets/72a4af56-8047-433a-9e70-d043b6710dc4" />
 
 <img width="1600" height="1200" alt="donuts" src="https://github.com/user-attachments/assets/68eb4a4f-1c8b-4f1d-b112-563a695d40d5" />
@@ -50,7 +51,7 @@ export API_KEY=<YOUR_API_KEY>
 
 
 **3. Make the image readable by the API.** For this demo, I grant `allUsers` the *Reader* role on the object. This makes the image public, so use only non-sensitive images (see [Security notes](#security-notes)).
-<img width="1276" height="832" alt="Screenshot 2026-09-28 103216" src="https://github.com/user-attachments/assets/cbbbebcc-0fe6-4c6a-829b-4c58202aa510" />
+
 
 <img width="1276" height="832" alt="Screenshot 2026-09-28 103216" src="https://github.com/user-attachments/assets/d9bbf391-899b-4c3d-8e8f-cc2f067caed3" />
 
