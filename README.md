@@ -40,9 +40,22 @@ Local image  ->  Cloud Storage bucket  ->  request.json  ->  Vision API (REST)  
 export API_KEY=<YOUR_API_KEY>
 ```
 
-**2. Create a bucket and upload an image.** Use fine-grained access control, then upload your image (for example `donuts.png`).
+<img width="1276" height="832" alt="Screenshot 2026-09-28 103216" src="https://github.com/user-attachments/assets/cbbbebcc-0fe6-4c6a-829b-4c58202aa510" />
 
-**3. Make the image readable by the API.** For this demo, the lab grants `allUsers` the *Reader* role on the object. This makes the image public, so use only non-sensitive images (see [Security notes](#security-notes)).
+
+**2. Create a bucket and upload an image.** Use fine-grained access control, then upload your image (for example `donuts.png`).
+<img width="1227" height="572" alt="Screenshot 2026-09-28 103025" src="https://github.com/user-attachments/assets/72a4af56-8047-433a-9e70-d043b6710dc4" />
+
+<img width="1600" height="1200" alt="donuts" src="https://github.com/user-attachments/assets/68eb4a4f-1c8b-4f1d-b112-563a695d40d5" />
+
+donut.png image uploaded to the bucket
+<img width="1720" height="748" alt="Screenshot 2026-09-28 140747" src="https://github.com/user-attachments/assets/df327592-bf19-47f1-800e-f6f4739d38bd" />
+
+
+
+**3. Make the image readable by the API.** For this demo, I grant `allUsers` the *Reader* role on the object. This makes the image public, so use only non-sensitive images (see [Security notes](#security-notes)).
+<img width="1276" height="832" alt="Screenshot 2026-09-28 103216" src="https://github.com/user-attachments/assets/d9bbf391-899b-4c3d-8e8f-cc2f067caed3" />
+
 
 ## Usage
 
@@ -111,9 +124,41 @@ _Add your own screenshots here, for example your bucket, `request.json`, and the
 ```
 docs/
   bucket.png
+
+<img width="1842" height="741" alt="Screenshot 2026-09-28 100335" src="https://github.com/user-attachments/assets/7eef5a13-90d2-4605-b3e6-29629d5a8d26" />
+
   label-detection-output.png
-  face-detection-output.png
+<img width="1386" height="757" alt="Screenshot 2026-09-28 104420" src="https://github.com/user-attachments/assets/c95230e5-24d8-41f0-9bd3-1ec7d5818728" />
+
+
+<img width="1096" height="687" alt="Screenshot 2026-09-28 103929" src="https://github.com/user-attachments/assets/c1e68f63-9485-41b8-8be1-8c028e3f39ad" />
+<img width="828" height="542" alt="Screenshot 2026-09-28 104020" src="https://github.com/user-attachments/assets/1ca44777-ba57-4b90-b671-41a4108cebaa" />
+<img width="776" height="528" alt="Screenshot 2026-09-28 104048" src="https://github.com/user-attachments/assets/a2c885a2-5f4b-4e55-be29-1a93501ee684" />
+<img width="906" height="573" alt="Screenshot 2026-09-28 104109" src="https://github.com/user-attachments/assets/08eacde9-c028-41d1-9029-fe4d279e1470" />
+
+
+
+
+face-detection-output.png
 ```
+
+## ERROR Encountered 
+My Curl command threw a 403 error. The request couldn't reach the Cloud Vision API
+<img width="1852" height="310" alt="Screenshot 2026-09-28 100021" src="https://github.com/user-attachments/assets/f7aa2504-efe8-480b-aef9-88df1481ad1f" />
+
+## Why
+
+I forgot to run the export command to save the API key on Cloudshell 
+
+
+## The Fix
+
+Run the export command and the curl command again 
+
+```bash
+export API_KEY=<YOUR_API_KEY>
+```
+
 
 ## Security notes
 
@@ -126,8 +171,7 @@ docs/
 
 - How to structure and send REST requests to a cloud vision service
 - How Cloud Storage links images to API calls
-- How to interpret confidence scores, bounding boxes, and emotion likelihoods
-- How results differ across image types
+- How to interpret confidence scores and emotion likelihoods
 
 ## Ideas for next steps
 
